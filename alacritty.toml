@@ -1,0 +1,21 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/duskfox.toml"
+]
+
+[window]
+#窗口大小
+dimensions = { columns = 100, lines = 30 }
+padding = { x = 4, y = 2 }
+dynamic_padding = true
+#透明度
+opacity = 0.8
+#窗口名字
+title = "Alacritty Terminal"
+
+#字体
+[font]
+normal = { family = "Cascadia Code", style = "Normal" }
+bold = { family = "Cascadia Code", style = "Bold" }
+italic = { family = "Cascadia Code", style = "Italic" }
+size = 12.0
